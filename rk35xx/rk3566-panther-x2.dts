@@ -8,12 +8,6 @@
 #include <dt-bindings/gpio/gpio.h>
 #include <dt-bindings/interrupt-controller/irq.h>
 #include <dt-bindings/pinctrl/rockchip.h>
-#include <dt-bindings/input/rk-input.h>
-#ifdef DTS_NO_LEGACY
-#include <dt-bindings/soc/rockchip,vop2.h>
-#else
-#include <dt-bindings/display/rockchip_vop.h>
-#endif
 #include "rk3566.dtsi"
 
 / {
